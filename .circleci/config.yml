@@ -5,4 +5,4 @@ version: 2
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: echo "notacommand"
+       - run: echo "A first hello"
