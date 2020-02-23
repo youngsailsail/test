@@ -38,3 +38,9 @@ workflows:
       - two:
           requires:
             - one
+  aa_and_bb:
+    jobs:
+      - one
+      - two:
+          requires:
+            - one
